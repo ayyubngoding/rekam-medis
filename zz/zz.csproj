@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6A0E9CA0-6F29-4841-9256-A434080012EF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>zz</RootNamespace>
+    <AssemblyName>zz</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\folder downlod\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2">
+      <HintPath>C:\Users\fujitsu\Pictures\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna.UI-Framework-Lib-master\Guna.UI2 WinForms\.net 3.5\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dokter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dokter.Designer.cs">
+      <DependentUpon>dokter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu.Designer.cs">
+      <DependentUpon>menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="obat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="obat.Designer.cs">
+      <DependentUpon>obat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pasien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pasien.Designer.cs">
+      <DependentUpon>pasien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pemeriksaan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pemeriksaan.Designer.cs">
+      <DependentUpon>pemeriksaan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="perawat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="perawat.Designer.cs">
+      <DependentUpon>perawat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="petugas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="petugas.Designer.cs">
+      <DependentUpon>petugas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="rawatinap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rawatinap.Designer.cs">
+      <DependentUpon>rawatinap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rawatjalan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rawatjalan.Designer.cs">
+      <DependentUpon>rawatjalan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ruangan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ruangan.Designer.cs">
+      <DependentUpon>ruangan.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="dokter.resx">
+      <DependentUpon>dokter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu.resx">
+      <DependentUpon>menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obat.resx">
+      <DependentUpon>obat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pasien.resx">
+      <DependentUpon>pasien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pemeriksaan.resx">
+      <DependentUpon>pemeriksaan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="perawat.resx">
+      <DependentUpon>perawat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="petugas.resx">
+      <DependentUpon>petugas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="rawatinap.resx">
+      <DependentUpon>rawatinap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rawatjalan.resx">
+      <DependentUpon>rawatjalan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ruangan.resx">
+      <DependentUpon>ruangan.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images__2_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tambah.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hospital-management-software-500x500.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13986.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

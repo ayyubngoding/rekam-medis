@@ -1,0 +1,36 @@
+D:\latihan C#1\zz\zz\bin\Debug\zz.exe.config
+D:\latihan C#1\zz\zz\bin\Debug\zz.exe
+D:\latihan C#1\zz\zz\bin\Debug\zz.pdb
+D:\latihan C#1\zz\zz\obj\Debug\zz.csprojResolveAssemblyReference.cache
+D:\latihan C#1\zz\zz\obj\Debug\zz.Form1.resources
+D:\latihan C#1\zz\zz\obj\Debug\zz.Properties.Resources.resources
+D:\latihan C#1\zz\zz\obj\Debug\zz.csproj.GenerateResource.Cache
+D:\latihan C#1\zz\zz\obj\Debug\zz.exe
+D:\latihan C#1\zz\zz\obj\Debug\zz.pdb
+D:\latihan C#1\zz\zz\bin\Debug\Guna.UI2.dll
+D:\latihan C#1\zz\zz\obj\Debug\zz.Form2.resources
+D:\latihan C#1\zz\zz\obj\Debug\zz.simpan.resources
+D:\latihan C#1\zz\zz\obj\Debug\zz.keypres.resources
+D:\latihan C#1\zz\zz\obj\Debug\zz.Form3.resources
+D:\c#2020\rumahsakit\zz\bin\Debug\zz.exe.config
+D:\c#2020\rumahsakit\zz\obj\Debug\zz.exe
+D:\c#2020\rumahsakit\zz\obj\Debug\zz.pdb
+D:\c#2020\rumahsakit\zz\bin\Debug\zz.exe
+D:\c#2020\rumahsakit\zz\bin\Debug\zz.pdb
+D:\c#2020\rumahsakit\zz\bin\Debug\Bunifu_UI_v1.52.dll
+D:\c#2020\rumahsakit\zz\bin\Debug\Guna.UI2.dll
+D:\c#2020\rumahsakit\zz\obj\Debug\zz.csprojResolveAssemblyReference.cache
+D:\c#2020\rumahsakit\zz\obj\Debug\zz.Form2.resources
+D:\c#2020\rumahsakit\zz\obj\Debug\zz.pasien.resources
+D:\c#2020\rumahsakit\zz\obj\Debug\zz.Properties.Resources.resources
+D:\c#2020\rumahsakit\zz\obj\Debug\zz.csproj.GenerateResource.Cache
+D:\c#2020\rumahsakit\zz\obj\Debug\zz.dokter.resources
+D:\c#2020\rumahsakit\zz\obj\Debug\zz.obat.resources
+D:\c#2020\rumahsakit\zz\obj\Debug\zz.pemeriksaan.resources
+D:\c#2020\rumahsakit\zz\obj\Debug\zz.perawat.resources
+D:\c#2020\rumahsakit\zz\obj\Debug\zz.rawatinap.resources
+D:\c#2020\rumahsakit\zz\obj\Debug\zz.rawatjalan.resources
+D:\c#2020\rumahsakit\zz\obj\Debug\zz.ruangan.resources
+D:\c#2020\rumahsakit\zz\obj\Debug\zz.menu.resources
+D:\c#2020\rumahsakit\zz\obj\Debug\zz.login.resources
+D:\c#2020\rumahsakit\zz\obj\Debug\zz.petugas.resources
